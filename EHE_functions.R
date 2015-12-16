@@ -90,7 +90,7 @@ HeterNei<-function(data,matsite)
   datapop<-genind2genpop(data, process.other=TRUE, other.action=mean)
   #Heterozygosity (Nei 1987) in each population, for each LOCUS
   HsLOC<-matrix(nrow=(dim(datapop@tab)[1]),
-                ncol=(length(data@loc.names)), byrow=TRUE)
+                ncol=(length(levels(data@loc.fac))), byrow=TRUE)
   for (i in (1:(dim(datapop@tab)[1]))) {
     dataLOC<-genind2loci(data[data$pop==data$pop[3*(i-1)+1],])
     ss<-summary(dataLOC)
