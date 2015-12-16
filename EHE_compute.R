@@ -5,7 +5,8 @@
 ###############################################################################
 
 #before using this code, you have to run 'EHE_functions.R' first
-#then you have to set the right working directory (where the data file is)
+#then you have to set the right working directory (where the data 
+#file is stored)
 setwd("~/work/Rfichiers/Githuber/EHE")
 
 #loading the needed packages
@@ -39,20 +40,29 @@ grTW<-matrix(nrow=0,ncol=1000, byrow=F)
 for (i in (1:(length(levels(as.factor(EHEtw$leave_ID)))/3))) {
   gr<-matrix(nrow=9,ncol=1000, byrow=F)
   for (j in (1:3)){
-    ifelse(length(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+1],]$ind_ID)>1,
-           gr[3*(j-1)+1,]<-sample(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+1],]$ind_ID,
-                                  1000,replace=T),
-           gr[3*(j-1)+1,]<-rep(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+1],]$ind_ID,
+    ifelse(length(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))
+                        [3*(i-1)+1],]$ind_ID)>1,
+           gr[3*(j-1)+1,]<-sample(EHEtw[EHEtw$leave_ID==
+                        levels(as.factor(EHEtw$leave_ID))[3*(i-1)+1],]$ind_ID,
+                               1000,replace=T),
+           gr[3*(j-1)+1,]<-rep(EHEtw[EHEtw$leave_ID==
+                        levels(as.factor(EHEtw$leave_ID))[3*(i-1)+1],]$ind_ID,
                                1000))
-    ifelse(length(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+2],]$ind_ID)>1,
-           gr[3*(j-1)+2,]<-sample(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+2],]$ind_ID,
-                                  1000,replace=T),
-           gr[3*(j-1)+2,]<-rep(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+2],]$ind_ID,
+    ifelse(length(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))
+                        [3*(i-1)+2],]$ind_ID)>1,
+           gr[3*(j-1)+2,]<-sample(EHEtw[EHEtw$leave_ID==
+                        levels(as.factor(EHEtw$leave_ID))[3*(i-1)+2],]$ind_ID,
+                               1000,replace=T),
+           gr[3*(j-1)+2,]<-rep(EHEtw[EHEtw$leave_ID==
+                        levels(as.factor(EHEtw$leave_ID))[3*(i-1)+2],]$ind_ID,
                                1000))
-    ifelse(length(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+3],]$ind_ID)>1,
-           gr[3*(j-1)+3,]<-sample(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+3],]$ind_ID,
-                                  1000,replace=T),
-           gr[3*(j-1)+3,]<-rep(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))[3*(i-1)+3],]$ind_ID,
+    ifelse(length(EHEtw[EHEtw$leave_ID==levels(as.factor(EHEtw$leave_ID))
+                        [3*(i-1)+3],]$ind_ID)>1,
+           gr[3*(j-1)+3,]<-sample(EHEtw[EHEtw$leave_ID==
+                        levels(as.factor(EHEtw$leave_ID))[3*(i-1)+3],]$ind_ID,
+                               1000,replace=T),
+           gr[3*(j-1)+3,]<-rep(EHEtw[EHEtw$leave_ID==
+                        levels(as.factor(EHEtw$leave_ID))[3*(i-1)+3],]$ind_ID,
                                1000))
   }
   grTW<-rbind(grTW,gr)
@@ -64,20 +74,29 @@ grTR<-matrix(nrow=0,
 for (i in (1:(length(levels(as.factor(EHE$twig_ID)))/3))) {
   gr<-matrix(nrow=27,ncol=1000, byrow=F)
   for (j in (1:9)){
-    ifelse(length(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+1],]$ind_ID)>1,
-           gr[3*(j-1)+1,]<-sample(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+1],]$ind_ID,
-                                  1000,replace=T),
-           gr[3*(j-1)+1,]<-rep(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+1],]$ind_ID,
+    ifelse(length(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))
+                      [3*(i-1)+1],]$ind_ID)>1,
+           gr[3*(j-1)+1,]<-sample(EHE[EHE$twig_ID==
+                        levels(as.factor(EHE$twig_ID))[3*(i-1)+1],]$ind_ID,
+                               1000,replace=T),
+           gr[3*(j-1)+1,]<-rep(EHE[EHE$twig_ID==
+                        levels(as.factor(EHE$twig_ID))[3*(i-1)+1],]$ind_ID,
                                1000))
-    ifelse(length(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+2],]$ind_ID)>1,
-           gr[3*(j-1)+2,]<-sample(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+2],]$ind_ID,
-                                  1000,replace=T),
-           gr[3*(j-1)+2,]<-rep(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+2],]$ind_ID,
+    ifelse(length(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))
+                      [3*(i-1)+2],]$ind_ID)>1,
+           gr[3*(j-1)+2,]<-sample(EHE[EHE$twig_ID==
+                        levels(as.factor(EHE$twig_ID))[3*(i-1)+2],]$ind_ID,
+                               1000,replace=T),
+           gr[3*(j-1)+2,]<-rep(EHE[EHE$twig_ID==
+                        levels(as.factor(EHE$twig_ID))[3*(i-1)+2],]$ind_ID,
                                1000))
-    ifelse(length(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+3],]$ind_ID)>1,
-           gr[3*(j-1)+3,]<-sample(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+3],]$ind_ID,
-                                  1000,replace=T),
-           gr[3*(j-1)+3,]<-rep(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))[3*(i-1)+3],]$ind_ID,
+    ifelse(length(EHE[EHE$twig_ID==levels(as.factor(EHE$twig_ID))
+                      [3*(i-1)+3],]$ind_ID)>1,
+           gr[3*(j-1)+3,]<-sample(EHE[EHE$twig_ID==
+                        levels(as.factor(EHE$twig_ID))[3*(i-1)+3],]$ind_ID,
+                               1000,replace=T),
+           gr[3*(j-1)+3,]<-rep(EHE[EHE$twig_ID==
+                        levels(as.factor(EHE$twig_ID))[3*(i-1)+3],]$ind_ID,
                                1000))
   }
   grTR<-rbind(grTR,gr)
@@ -155,8 +174,10 @@ EHE<-read.table(file="EHEdata.txt", header=T)
 #select the usefull data
 EHElv<-EHE[EHE$eff_lv==3,]
 #transform dataset in adegenet file format
-datalv<-df2genind(EHElv[,14:22], sep=NULL, ncode=6, ind.names=NULL, 
-                  loc.names=NULL, pop=as.factor(EHElv$leave_ID), ploidy=2, 
+datalv<-df2genind(EHElv[,14:22], sep=NULL, ncode=6,
+                  ind.names=rownames((EHElv[,14:22])), 
+                  loc.names=colnames(EHElv[,14:22]),
+                  pop=as.factor(EHElv$leave_ID), ploidy=2, 
                   type=c("codom"))
 datalv@other$genotype<-as.factor(EHElv$geno_ID)
 #computation of the "matsite" matrix

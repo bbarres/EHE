@@ -27,7 +27,7 @@ locmat<-function(DatFrame,data)
                          rep("AX",dim(DatFrame[DatFrame$pop_ID=="AX",])[1]/3),
                          rep("CB",dim(DatFrame[DatFrame$pop_ID=="CB",])[1]/3)),
                   nrow=(dim(datapop@tab)[1]), 
-                  ncol=(length(data@loc.names)),byrow=F)
+                  ncol=(length(levels(data@loc.fac))),byrow=F)
 }
 
 
@@ -40,11 +40,12 @@ locmat<-function(DatFrame,data)
 AllRich<-function(data,matsite)
 {
   #Conversion from 'genind' object to 'genpop' object
-  datapop<-genind2genpop(data, process.other=TRUE, other.action=mean)
+  datapop<-genind2genpop(data,pop=data@pop,process.other=TRUE,
+                         other.action=mean)
   #First, determining the smaller number of allele across sampled population
   matloc<-t(matrix(data=datapop@loc.fac,nrow=(dim(datapop@tab)[2]), 
                    ncol=(dim(datapop@tab)[1])))
-  matpop<-matrix(data=datapop@pop.names, nrow=(dim(datapop@tab)[1]), 
+  matpop<-matrix(data=row.names(datapop@tab), nrow=(dim(datapop@tab)[1]), 
                  ncol=(dim(datapop@tab)[2]))
   conf<-list(matpop, matloc)
   effN<-(tapply(datapop@tab, conf, sum))
