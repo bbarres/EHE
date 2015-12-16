@@ -5,12 +5,17 @@ The R code used in the article of 2012 on the role of asexual multiplication in 
   
 The article related to this GitHub repository has been published in Molecular Ecology in 2012: [Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Molecular Ecology 21(20): 4996–5008.] (http://dx.doi.org/10.1111/mec.12008)  
 
-Originally, the R code as well as the dataset have been published on Dryad:
+Originally, the R code, as well as the dataset, have been published on Dryad:
 [Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Data from: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Dryad Digital Repository.] (http://dx.doi.org/10.5061/dryad.415sg) The code has been adapted in order to be compatible with the new version of `adegenet` R package. The functions have been separated from the rest of the R code, in order to make things easier to follow.  
 
+##The question
+As numerous pathogens, *Melampsora larici-populina* has the ability to reproduce both sexually and asexually. During the epidemic, both local multiplication (via asexual reproduction) or migration from spores from neighbors infected trees (which derive from independent sexual reproduction events) can influence the disease evolution.  
+
+![alt text](http://googledrive.com/host/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA/EHElocalvsmigrant.png "Cartoon of the different strains that may influence the course of the epidemic")
 
 
-
+##The assay
+This study tries to quantify the relative importance of the local *vs.* migrant strains during the course of the epidemic. We sampled strains at several hierarchical levels (from leaves to trees and sites) at the beginning and at the end of the epidemic. Those strains where characterized using molecular markers (microsatellites) and we explored the genetic and genotypic diversities in space and time. 
 ![alt text](http://googledrive.com/host/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA/EHEsamplingdesign.png "Cartoon of the sampling design of the survey")
 
 
