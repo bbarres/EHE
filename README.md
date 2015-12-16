@@ -8,6 +8,8 @@ The article related to this GitHub repository has been published in Molecular Ec
 Originally, the R code, as well as the dataset, have been published on Dryad:
 [Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Data from: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Dryad Digital Repository.] (http://dx.doi.org/10.5061/dryad.415sg) The code has been adapted in order to be compatible with the new version of `adegenet` R package. The functions have been separated from the rest of the R code, in order to make things easier to follow.  
 
+---
+
 ##The question
 As numerous pathogens, *Melampsora larici-populina* has the ability to reproduce both sexually and asexually. During the epidemic, both local multiplication (via asexual reproduction) or migration from spores from neighbors infected trees (which derive from independent sexual reproduction events) can influence the disease evolution.  
 
@@ -21,12 +23,6 @@ This study tries to quantify the relative importance of the local *vs.* migrant 
 ![alt text](http://googledrive.com/host/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA/EHEsamplingdesign.png "Cartoon of the sampling design of the survey")
 
 ---
-
-##List of the different scripts
-
-* **EHE_functions.R:** the function used in the script EHE_compute.R. You have to run this code first in order to load the functions used in the other script. 
-* **EHE_compute.R:** the code for producing the analyses found in the paper.  
-
 
 ##The dataset
 
@@ -45,7 +41,12 @@ This study tries to quantify the relative importance of the local *vs.* migrant 
  + eff_lv: number of individuals sampled in the corresponding leave
  + ind_ID: a simplified individual identifier
  + geno_ID: Genotype identifier based on the multilocus profile (see publication for details)
- + [MLP09 to MLP38]: allele scores at 9 microsatellite loci (see publication and [Barrès et al 2008](http://www.sciencedirect.com/science/article/pii/S1567134808000725) for details). Individuals are diploid and are coded in 6 digits (ie 2 * 3 digits representing the 2 allele sizes in bp). 
+ + [MLP09 to MLP38]: allele scores at 9 microsatellite loci (see publication and [Barrès et al 2008](http://www.sciencedirect.com/science/article/pii/S1567134808000725) for details). Individuals are diploid and are coded in 6 digits (ie 2 * 3 digits representing the 2 allele sizes in bp).  
 
+---
 
+##List of the different scripts
+
+* **EHE_functions.R:** the function used in the script EHE_compute.R. You have to run this code first in order to load the functions used in the other script. 
+* **EHE_compute.R:** the code for producing the analyses found in the paper.  
 
