@@ -13,12 +13,14 @@ As numerous pathogens, *Melampsora larici-populina* has the ability to reproduce
 
 ![alt text](http://googledrive.com/host/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA/EHElocalvsmigrant.png "Cartoon of the different strains that may influence the course of the epidemic")
 
+---
 
 ##The assay
-This study tries to quantify the relative importance of the local *vs.* migrant strains during the course of the epidemic. We sampled strains at several hierarchical levels (from leaves to trees and sites) at the beginning and at the end of the epidemic. Those strains where characterized using molecular markers (microsatellites) and we explored the genetic and genotypic diversities in space and time. 
+This study tries to quantify the relative importance of the local *vs.* migrant strains during the course of the epidemic. We sampled strains at several hierarchical levels (from leaves to trees and sites) at the beginning and at the end of the epidemic. Those strains where characterized using molecular markers (microsatellites) and we have explored the genetic and genotypic diversity variation in space and time.  
+
 ![alt text](http://googledrive.com/host/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA/EHEsamplingdesign.png "Cartoon of the sampling design of the survey")
 
-
+---
 
 ##List of the different scripts
 
