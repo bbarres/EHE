@@ -1,5 +1,5 @@
 # Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure
-The R code used in the article of 2012 on the role of asexual multiplication in poplar rust epidemic
+*The R code used in the article of 2012 on the role of asexual multiplication in poplar rust epidemic*
 
 ---
   
