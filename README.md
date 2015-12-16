@@ -24,21 +24,21 @@ Originally, the R code as well as the dataset have been published on Dryad:
 ##The dataset
 
 * **EHEdata.txt**: the data used for the paper. This file and the one you can find on the Dryad repository are identical. Details for column names: 
--there is no column header for the Individual identifier
--pop_ID: unique population identifier (combination between location and collection date information). "AC" stand for Charrey-A, "AD" for Amance, "AN" for Prelles-A, "AX" for Charrey-B and "CB" for Prelles-B
--eff_loc: number of individuals in the corresponding population
--nb_tr: number of trees sampled in the corresponding population
--tree_ID: unique tree identifier
--eff_tr: number of individuals sampled in the corresponding tree
--nb_tw: number of twigs sampled in the corresponding tree
--twig_ID: unique twig identifier
--eff_tw: number of individuals sampled in the corresponding twig
--nb_lv: number of leaves sampled in the corresponding twig
--leave_ID: unique leave identifier
--eff_lv: number of individuals sampled in the corresponding leave
--ind_ID: a simplified individual identifier
--geno_ID: Genotype identifier based on the multilocus profile (see publication for details)
--[MLP09 to MLP38]: allele scores at 9 microsatellite loci (see publication and Barrès et al 2008 for details). Individuals are diploid and are coded in 6 digits (ie 2 * 3 digits representing the 2 allele sizes in bp). 
++there is no column header for the Individual identifier
++pop_ID: unique population identifier (combination between location and collection date information). "AC" stand for Charrey-A, "AD" for Amance, "AN" for Prelles-A, "AX" for Charrey-B and "CB" for Prelles-B
++eff_loc: number of individuals in the corresponding population
++nb_tr: number of trees sampled in the corresponding population
++tree_ID: unique tree identifier
++eff_tr: number of individuals sampled in the corresponding tree
++nb_tw: number of twigs sampled in the corresponding tree
++twig_ID: unique twig identifier
++eff_tw: number of individuals sampled in the corresponding twig
++nb_lv: number of leaves sampled in the corresponding twig
++leave_ID: unique leave identifier
++eff_lv: number of individuals sampled in the corresponding leave
++ind_ID: a simplified individual identifier
++geno_ID: Genotype identifier based on the multilocus profile (see publication for details)
++[MLP09 to MLP38]: allele scores at 9 microsatellite loci (see publication and [Barrès et al 2008](http://www.sciencedirect.com/science/article/pii/S1567134808000725) for details). Individuals are diploid and are coded in 6 digits (ie 2 * 3 digits representing the 2 allele sizes in bp). 
 
 
 
