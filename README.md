@@ -24,9 +24,9 @@ Originally, the R code as well as the dataset have been published on Dryad:
 ##The dataset
 
 * **EHEdata.txt**: the data used for the paper. This file and the one you can find on the Dryad repository are identical. Details for column names: 
-+there is no column header for the Individual identifier
-+pop_ID: unique population identifier (combination between location and collection date information). "AC" stand for Charrey-A, "AD" for Amance, "AN" for Prelles-A, "AX" for Charrey-B and "CB" for Prelles-B
-+eff_loc: number of individuals in the corresponding population
++ there is no column header for the Individual identifier
++ pop_ID: unique population identifier (combination between location and collection date information). "AC" stand for Charrey-A, "AD" for Amance, "AN" for Prelles-A, "AX" for Charrey-B and "CB" for Prelles-B
++ eff_loc: number of individuals in the corresponding population
 +nb_tr: number of trees sampled in the corresponding population
 +tree_ID: unique tree identifier
 +eff_tr: number of individuals sampled in the corresponding tree
