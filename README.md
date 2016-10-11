@@ -13,7 +13,7 @@ Originally, the R code, as well as the dataset, have been published on Dryad:
 ##The question
 As numerous pathogens, *Melampsora larici-populina* has the ability to reproduce both sexually and asexually. During the epidemic, both local multiplication (via asexual reproduction) and migration of spores from neighbors infected trees (which derive from independent sexual reproduction events) can influence the disease evolution. But too which extent each type of infection is involved in the evolution of the epidemic remains largely unknown.   
 
-![alt text](https://drive.google.com/drive/folders/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA.png "Cartoon of the different strains that may influence the course of the epidemic")  
+![alt text](https://drive.google.com/file/d/0B-FIusWb7o6PMXJmYThuRTNBLWM/view?usp=sharing "Cartoon of the different strains that may influence the course of the epidemic")  
 
 ---
 
