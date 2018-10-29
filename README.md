@@ -13,14 +13,14 @@ Originally, the R code, as well as the dataset, have been published on Dryad:
 ## The question
 As numerous pathogens, *Melampsora larici-populina* has the ability to reproduce both sexually and asexually. During the epidemic, both local multiplication (via asexual reproduction) and migration of spores from neighbors infected trees (which derive from independent sexual reproduction events) can influence the disease evolution. But too which extent each type of infection is involved in the evolution of the epidemic remains largely unknown.   
 
-![alt text](https://drive.google.com/file/d/0B-FIusWb7o6PMXJmYThuRTNBLWM/view?usp=sharing "Cartoon of the different strains that may influence the course of the epidemic")  
+![alt text](https://q77bda.db.files.1drv.com/y4mjzmBC5Xg6S19GrhAC6f4c6r4fQa_N0LPqX3vca6P4sF3u8K-oTatD_pAzEuxYPaTnBUBjge8GE_4Vzm_e0R8LTAloGhA9OE9dgnHUluB64gbteVCDt1AwIIcV_umnSNSAbYa3af1Zrv5vauba8x1DzUVodGLpHJfnd8MJoaOU-PbUHcT-uCHJ-JCEvwWLRJOW7VxVHppLejpljHHY00Exg?width=904&height=354&cropmode=none "Cartoon of the different strains that may influence the course of the epidemic")  
 
 ---
 
 ## The assay
 This study tries to quantify the relative importance of the local *vs.* migrant strains during the course of the epidemic. We sampled strains at several hierarchical levels (from leaves to trees and sites) at the beginning and at the end of the epidemic. Those strains were characterized using molecular markers (microsatellites) and we explored the genetic and genotypic diversity variation in space and time.  
 
-![alt text](https://drive.google.com/drive/folders/0B-FIusWb7o6PfjdhbUJncm1mdjM1NnQ1TWl6MHhZUnNRZjd6RkUtUVo5WlFsVURTV0lvQjA.png "Cartoon of the sampling design of the survey")  
+![alt text](https://q77zda.db.files.1drv.com/y4mIITEGA_QJgSfCuVZ8lX0Gd5bitpxZWN1-Z0Vq-RBaEdCaA9WmOvDo2k2ucrkMa273oUDXMBQu_UT0jGh1FA2NXl3PD7jJ0PyYkKAF3CbRWVTTCEpRHoAjE6LsIhSADyEvEphgGV4-4ZPtsjfklHcwX6Ag6c04jf9VcsO3EV-RVtzGifakGBTE9hzsTKaBySqSyZFn6QD0eIvoz_z-9S_Yg?width=925&height=255&cropmode=none "Cartoon of the sampling design of the survey")  
 
 ---
 
