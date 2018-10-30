@@ -4,10 +4,8 @@
 ###############################################################################
 ###############################################################################
 
-#before using this code, you have to run 'EHE_functions.R' first
-#then you have to set the right working directory (where the data 
-#file is stored)
-setwd("~/work/Rfichiers/Githuber/EHE")
+source('EHE_functions.R')
+
 
 #loading the needed packages
 require(adegenet)
