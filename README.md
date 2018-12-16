@@ -3,10 +3,10 @@
 
 ---
   
-The article related to this GitHub repository has been published in Molecular Ecology in 2012: [Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Molecular Ecology 21(20): 4996–5008.] (http://dx.doi.org/10.1111/mec.12008)  
+The article related to this GitHub repository has been published in Molecular Ecology in 2012: [Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Molecular Ecology 21(20): 4996–5008.](http://dx.doi.org/10.1111/mec.12008)  
 
 Originally, the R code, as well as the dataset, have been published on Dryad:
-[Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Data from: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Dryad Digital Repository.] (http://dx.doi.org/10.5061/dryad.415sg) The code has been adapted in order to be compatible with the new version of `adegenet` R package. The functions have been separated from the rest of the R code, in order to make things easier to follow.  
+[Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Data from: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Dryad Digital Repository.](http://dx.doi.org/10.5061/dryad.415sg) The code has been adapted in order to be compatible with the new version of `adegenet` R package. The functions have been separated from the rest of the R code, in order to make things easier to follow.  
 
 ---
 
