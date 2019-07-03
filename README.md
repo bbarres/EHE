@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/48103870.svg)](https://zenodo.org/badge/latestdoi/48103870)
+
 # Supporting code and data for: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure
 *The R code used in the article of 2012 on the role of asexual multiplication in poplar rust epidemic*
 
