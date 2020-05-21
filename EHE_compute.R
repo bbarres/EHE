@@ -4,8 +4,8 @@
 ##############################################################################/
 ##############################################################################/
 
+#loading the function
 source('EHE_functions.R')
-
 
 #loading the needed packages
 require(adegenet)
@@ -27,6 +27,7 @@ head(EHE)
 EHElv<-EHE[EHE$eff_lv==3,]
 #select individuals on twigs with 3 leaves
 EHEtw<-EHE[EHE$nb_lv==3,]
+
 
 ##############################################################################/
 #Resampling individuals at the infralevel####
@@ -344,6 +345,17 @@ Vsi_var<-tapply(Vsi,matrix(matsitesi[,1],nrow=dim(Vsi)[1],
 citation('adegenet')
 citation('combinat')
 citation('pegas')
+
+
+##############################################################################/
+#Writing info session for reproducibility####
+##############################################################################/
+
+sink("session_info.txt")
+print(sessioninfo::session_info())
+sink()
+#inspired by an R gist of François Briatte: 
+#https://gist.github.com/briatte/14e47fb0cfb8801f25c889edea3fcd9b
 
 
 ##############################################################################/
