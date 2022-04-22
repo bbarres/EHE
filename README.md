@@ -49,5 +49,5 @@ The article related to this GitHub repository has been published in Molecular Ec
 Originally, the R code, as well as the dataset, have been published on Dryad:
 [Barrès B, Dutech C, Andrieux A, Halkett F, Frey P (2012) Data from: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Dryad Digital Repository.](http://dx.doi.org/10.5061/dryad.415sg) 
 The code has been adapted in order to be compatible with the new version of `adegenet` R package. The functions have been separated from the rest of the R code, in order to make things easier to follow. You can find this updated version of the code on this repository:
-* Benoit Barrès. [Supporting code and data for: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Zenodo](https://zenodo.org/badge/latestdoi/48103870)
+* Benoit Barrès. [Supporting code and data for: Exploring the role of asexual multiplication in poplar rust epidemics: impact on diversity and genetic structure. Zenodo.](https://zenodo.org/badge/latestdoi/48103870)
 
